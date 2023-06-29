@@ -1,4 +1,4 @@
-/// <reference types="Cypress" />
+// <reference types="Cypress" />
 import HomePage_POM from './HomePage_POM'
 
 
@@ -7,6 +7,7 @@ describe('template spec', () => {
 
 const homePage = new HomePage_POM
 
+// Accessing the POM METHODS
 homePage.getUrl()
 
  homePage.Name()
